@@ -104,6 +104,7 @@ renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 
 const tick = () => {
   controls.update();
+  //dd
 
   renderer.render(scene, camera);
 
